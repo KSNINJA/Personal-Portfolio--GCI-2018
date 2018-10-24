@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Me & Myself</title>
+	<link rel="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header"  style=" opacity: 0.4;">
+		<img class="headerProfileImg" src="Images/profileImage.png" >
+		<div class="footer_btn">About</div>
+		<div class="footer_btn" >Projects</div>
+		<div class="footer_btn" >Contact</div>
+
+	</div>
+	<div class="header"  style=" background: transparent;">
+		<img class="headerProfileImg" src="Images/profileImage.png" >
+		<div class="footer_btn" id="about_btn">About</div>
+		<div class="footer_btn" id="projects_btn">Projects</div>
+		<div class="footer_btn" id="contact_btn">Contact</div>
+	</div>
+	
+
+	<div style=" width: 100%; background-image: url(Images/nightSkyBackground.jpg); text-align: center;">
+		<div id="text_name">I'm Kartik.</div>
+		<div style="color:#fff  ;font-size: 30px ; vertical-align: center; padding-top: 3%;padding-bottom: 19%">a web designer. </div>
+	</div>
+
+	<div id="about_content" style="text-align: center;padding-top: 8%;">
+		<img class="profile_img_except_head" src="Images/profileImage.png" >
+		<div style="font-size: 30px;color: 	#DB843E">Hi.</div>
+		<div style="font-size: 20px ; word-spacing: 4px;color: #616161;margin: 1% ; line-height: 140%;">
+			I'm a web designer / developer based in New Delhi,<br>
+		    India. I have a passion for web design and love to<br>
+		    create for web and mobile devices.
+		</div>
+	</div>
+
+	<div style="text-align: center;padding-top: 5%;">
+		<div class="topic_headings">What I have been doing.</div>
+        <img class="profile_img_except_head" src="Images/profileImage.png" >
+        <div class="content_text">
+			I like to keep it simple. I have working with c++, <br>
+		    <a class="hyperlinks" href="https://www.java.com/en/">Java</a>,
+		    <a class="hyperlinks" href="https://www.w3schools.com/html/default.asp"> HTML & CSS</a> 
+		    And 
+		    <a class="hyperlinks" href="https://www.w3schools.com/js/default.asp">Javascript</a>.
+		     I also have experience<br>
+		     working with
+		     <a class="hyperlinks" href="https://firebase.google.com">Google Firebase</a>
+		     . I have a programming <br>
+		     experience of 3 years .
+		</div>
+	</div>
+
+
+    <div id="projects_content" style="text-align: center;padding-top: 10%;">
+		<div class="topic_headings" style="margin-bottom: 5%">How I have spent my <img src="Images/text3.png" style="height: 4%;width: 4%;vertical-align: middle;"> years.</div>
+		<div>
+			<img class="project_section_language_img" src="Images/c++.png">
+			<div class="content_text">
+			     The first line of code I wrote was in C++ . I made several programs.<br>
+			      <a class="hyperlinks" href="https://github.com/KSNINJA/programs">See the repository</a>.
+		    </div>
+		</div>
+
+		<div style="margin:5%;">
+			
+			<div class="content_text">
+			     I started with simple applications based more on frontend and a little backend Java .<br>
+			     Then , I made my way to a calculator and a Chat App using Firebase . The Chat App provides<br>
+			      authentication , complete privacy to its users . The user could also see its messages offline . <br>
+			      See
+			      <a class="hyperlinks" href="https://github.com/KSNINJA/Android-Projects.git">Initial folder</a>.   
+			      <a class="hyperlinks" href="https://github.com/KSNINJA/Calculator.git">Calculator</a>. 
+			      <a class="hyperlinks" href="https://github.com/KSNINJA/FriendlyChat-Lv.2.git">Chat App</a>.   
+		    </div>
+		    <img class="project_section_language_img" src="Images/android.png">
+		</div>
+
+		<div style="margin:5%;">
+			<img class="project_section_language_img" src="Images/web.png">
+			<div class="content_text">
+			     Then , I made my way to web applications . I made static webpages , following<br>
+			      a Web Calculator and a Movie Review website . The Movie review webite<br>
+			       fetch data from API Omdb and shows every info you need .<br>
+			       See
+			      <a class="hyperlinks" href="https://github.com/KSNINJA/webcalculator.git">Calculator</a>.   
+			      <a class="hyperlinks" href="https://github.com/KSNINJA/Movie-Reviews.git">Movie Review</a> 
+		    </div>
+		</div>
+	</div>
+
+
+
+
+	<div id="contact_content" style="text-align: center;padding:10%;">
+		<img id="contact_img" src="Images/contact_img.jpg" >
+		<div class="topic_headings" style="margin-bottom: 4%;display: inline-block;vertical-align: middle">Get in touch.</div>
+		<br>
+        <a href="https://github.com/KSNINJA"><i class="fa fa-github  icons" aria-hidden="true" style="font-size: 30px;"></i></a>
+        <div class="contact_credentials"> KSNINJA</div><br>
+       <a href="mailto:kartiksinghal122@gmail.com"> <i class="fa fa-envelope icons" aria-hidden="true" style="font-size: 30px;"></i></a>
+       <div class="contact_credentials"> kartiksinghal122@gmail.com</div><br>
+       <a href="skype:kartiksinghal122?chat"><i class="fa fa-skype icons" aria-hidden="true" style="font-size: 30px;"></i></a>
+       <div class="contact_credentials">kartiksinghal122</div>
+   
+        
+	</div>
+	
+
+	<div style="background-image: url(Images/footer.jpg);width: 100%;padding-bottom: 5%;">
+	</div>
+
+	<script type="text/javascript">
+		let about_btn = document.getElementById("about_btn");
+		let projects_btn = document.getElementById('projects_btn');
+		let contact_btn = document.getElementById('contact_btn');
+
+		let about_content = document.getElementById('about_content');
+		let projects_content = document.getElementById('projects_content');
+		let contact_content = document.getElementById('contact_content');
+
+		about_btn.addEventListener('click',function(){
+			about_content.scrollIntoView();
+		});
+        projects_btn.addEventListener('click',function(){
+			projects_content.scrollIntoView();
+		});
+		contact_btn.addEventListener('click',function(){
+			contact_content.scrollIntoView();
+		});	
+		
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+	margin:0px;
+}
+.footer_btn{
+	display: inline-block;
+	 color: #fff ; 
+	 font-size: 22px;
+	  vertical-align: middle;
+	  padding: 1%;
+	  transition: 0.4s;
+}
+.footer_btn:hover{
+	color : #1AD900;
+
+}
+.hyperlinks{
+	color:#616161;
+	text-decoration: none;
+}
+.hyperlinks:hover{
+	color: #464646;
+	text-decoration: underline;
+}
+.icons{
+	font-size: 30px;
+	border-radius: 100%;
+	transition: 0.4s;
+	padding-top: 1%;
+}
+.icons:hover{
+	color: cyan;
+}
+.header{
+	position: fixed ;padding: 1%;background: #000;width: 100%;
+}
+#text_name{
+	color:#fff ; 
+	font-family: Pacifico ;
+	font-size: 100px ; 
+	padding-top: 15%
+}
+.headerProfileImg{
+	height: 6% ;
+	width: 6% ; 
+    border-radius: 100%;
+    margin-left: 20%;
+    vertical-align: middle;
+    margin-right:45%;
+}
+.contact_credentials{
+	display: inline-block;
+	font-size: 20px ;
+	 word-spacing: 4px;
+	 color: #616161; 
+}
+.topic_headings{
+	font-size: 40px;
+	color: #DB843E; 
+}
+.content_text{
+	font-size: 20px ; 
+	word-spacing: 4px;
+	color: #616161;
+	margin: 1% ; 
+	line-height: 140%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.profile_img_except_head{
+	height: 14% ;
+	 width: 14% ;
+	  border-radius: 100%;
+	  margin-top: 2%;
+	  vertical-align: middle;
+}
+.project_section_language_img{
+	height: 10%;
+	width: 10%;
+	vertical-align: middle;
+	border-radius: 100%;
+	margin: 2%;
+}
+#contact_img{
+   height: 10%;
+    width: 10%;
+    vertical-align: middle;
+}
+
